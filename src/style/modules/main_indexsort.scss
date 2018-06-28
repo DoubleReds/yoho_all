@@ -1,0 +1,112 @@
+.container{
+    .main{
+        .category-page{
+            font-size: 15px;
+            //搜索框
+            .search-input{
+                position: relative;
+                background-color: #f8f8f8;
+                padding: .325rem .5rem;
+                a{
+                    color: #000;
+                    i{
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 1.075rem;
+                        line-height: 2.15rem;
+                        color: #999;
+                    }
+                    p{
+                        box-sizing: border-box;
+                        width: 100%;
+                        height: 1.5rem;
+                        line-height: 1.5rem;
+                        border: none;
+                        padding-left: 1.65rem;
+                        border-radius: 1.5rem;
+                        font-size: 13px;
+                        background: #fff;
+                        color: #999;
+                    }
+                }
+            }
+            //导航
+            .category-nav{
+                height: 1.75rem;
+                border-bottom: 1px solid #e6e6e6;
+                .focus{
+                    display: block;
+                    box-sizing: border-box;
+                    float: left;
+                    height: 100%;
+                    padding: .5rem 0;
+                    width: 25%;
+                    text-align: center;
+                    background-color: #fff;
+                    span{
+                        display: block;
+                        width: 100%;
+                        height: .75rem;
+                        line-height: .75rem;
+                        font-size: 15px;
+                        border-right: 1px solid #e6e6e6;
+                    }
+                }
+            }
+            //内容
+            .category-container{
+                margin-bottom:2.5rem;
+                .content-kid{
+                    background: #f8f8f8;
+                    overflow: hidden;
+                    position: relative;
+                    height: 1101px;
+                    .primary-level{
+                        float: left;
+                        box-sizing: border-box;
+                        width: 45%;
+                        li{
+                            background-color: #fff;
+                            height: 2.225rem;
+                            line-height: 2.225rem;
+                            padding: 0 .8rem;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                    .sub-level-container{
+                        float: left;
+                        overflow-x: auto;
+                        box-sizing: border-box;
+                        background: #fff;
+                        width: 55%;
+                        height: 100%;
+                        .hide{
+                            display:none;
+                        }
+                        .sub-level{
+                            width: 100%;
+                            li{
+                                box-sizing: border-box;
+                                height: 2.225rem;
+                                line-height: 2.225rem;
+                                border-bottom: 1px solid #e6e6e6;
+                                padding-left: .5rem;
+                                a{
+                                    display: block;
+                                    height: 100%;
+                                    width: 100%;
+                                    color: #000;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+   
+}

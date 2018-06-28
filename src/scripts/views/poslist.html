@@ -1,0 +1,15 @@
+
+{{each result}}
+<div class="guang-item">
+    <a href="">
+        <div class="page-c">
+            <img src="{{$value.src}}" alt="" class="lazy">
+        </div>
+        <div class="info">
+            <p class="name">{{$value.title}}</p>
+            <p class="name1">{{$value.category_name}}</p>
+        </div>
+    </a>
+</div>
+
+{{/each}}

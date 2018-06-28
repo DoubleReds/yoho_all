@@ -1,0 +1,194 @@
+.container{
+    .main{
+        .car_main{
+            //头部
+        .car_header{
+            background-image: linear-gradient(#323232,#414141);
+            height: 2.625rem;
+            line-height: 2.625rem;
+            position:relative;
+            z-index: 20;
+            width: 100%; 
+            background-color: #000;
+            color: #fff;
+            .car_nav-title{
+                margin-right: 2.925rem;
+                margin-left: 2.925rem;
+                font-size:1.05rem;
+                font-weight:400;
+                text-align: center;
+            }
+        }
+        //主体
+        .shopping-cart-page{
+            margin-bottom: 3rem;
+            overflow-x: hidden;
+            .car-box{
+                .zero{
+                    width: 100%;
+                    height: auto;
+                    padding-top: 2.25rem;
+                    padding-bottom:20%;
+                    i{
+                        font-size:3.6rem;
+                        display: block;
+                        margin: 0 auto;
+                        text-align: center;
+                        color:#505050;
+                        font-size: normal;
+                    }
+                    p{
+                        display: block;
+                        text-align: center;
+                        font-size: .6rem;
+                        color:#444;
+                        padding:.6rem 0;
+                    }
+                    a{
+                        width: 27%;
+                        height: 1.4rem;
+                        overflow: hidden;
+                        line-height: 1.4rem;
+                        border: 1px solid #505050;
+                        border-radius: 5px;
+                        margin: 0 auto;
+                        color: #fff;
+                        background: #444;
+                        display: block;
+                        text-align: center;
+                        font-size: .6rem;
+                    }
+                }
+            }
+            //为你优选新品
+            .recommend-for-you{
+                padding: .875rem 0;
+                font-size: .35rem;
+                background-color: #fff;
+                margin-top: .5rem;
+                border-top: 1px solid #e0e0e0;
+                border-bottom: 1px solid #e0e0e0;
+                background: #fff;
+                .goods-container{
+                    padding-top: .225rem;
+                    padding-left: .45rem;
+                    min-height: 25.775rem;
+                    .title{
+                        font-size: .95rem;
+                        line-height: 2.575rem;
+                        color: #444;
+                        text-align: center;
+                        span{
+
+                        }
+                    }
+                    .good-list{
+                        overflow: hidden;
+                        .goods-info{
+                            float: left;
+                            margin: .25rem .375rem 1rem;
+                            width: 6.9rem;
+                            height: 12.65rem;
+                            .tag-container{
+                                overflow: hidden;
+                                width: 100%;
+                                height: .7rem;
+                                &::after{
+                                    content: '';
+                                    display: block;
+                                    clear: both;
+                                }
+                            }
+                            .good-detail-img{
+                                position: relative;
+                                height: 9.2rem;
+                                .good-thumb{
+                                    color: #000;
+                                    .lazy{
+                                        display: block;
+                                        width: 100%;
+                                        height: 9.2rem;
+                                    }
+                                }
+                                .similar-c{
+                                    display: none;
+                                    width: 100%;
+                                    height: 100%;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    .bg{
+                                        width: 100%;
+                                        height: 100%;
+                                        background-color: #000;
+                                        opacity: .6;
+                                    }
+                                    a{
+                                    display: block;
+                                    width: 3rem;
+                                    height: 3rem;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    margin-left: -1.5rem;
+                                    margin-top: -1.5rem;
+                                    color: #fff;
+                                    background-color: #d0021b;
+                                    font-size: .7rem;
+                                    line-height: 3rem;
+                                    text-align: center;
+                                    border-radius: 50%;
+                                    }
+                                }
+                    
+                            }
+                            .good-detail-text{
+                                position: relative;
+                                .name{
+                                    a{
+                                        margin: .375rem 0 .25rem;
+                                        min-height: 1.25rem;
+                                        color: #444;
+                                        line-height: .75rem;
+                                        padding: .125rem 0;
+                                        display: -webkit-box;
+                                        -webkit-box-orient: vertical;
+                                        -webkit-line-clamp: 2;
+                                        overflow: hidden;
+                                        height: 1.5rem;
+                                    }
+                                }
+                                .price{
+                                    line-height: .55rem;
+                                    white-space: nowrap;
+                                    .sale-price{
+                                        color:#000;
+                                    }
+                                    a{
+                                        color: #b0b0b0;
+                                        width: 1.25rem;
+                                        height: 2rem;
+                                        line-height: 2.5rem;
+                                        text-align: center;
+                                        position: absolute;
+                                        bottom: -.5rem;
+                                        right: 0;
+                                        font-weight: 700;
+                                        text-decoration: none;
+                                        font-style: normal;
+                                        font-size: .6rem;
+                                        font-family: 'iconfont';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+  
+}

@@ -1,0 +1,4 @@
+{
+  "/api/users/signin": "/signin",
+  "/api/poslist": "/poslist"
+}
